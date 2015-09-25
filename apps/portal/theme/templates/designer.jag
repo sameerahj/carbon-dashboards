@@ -240,7 +240,7 @@
                             <h4>Options</h4>
                             {{#each options}}
                                 <div class="form-group">
-                                    {{#equals type "STRING"}}
+                                    {{#equals type "string"}}
                                         <label>{{title}}
                                             <input type="text" class="form-control" name="{{@key}}" placeholder="{{title}}" value="{{value}}">
                                         </label>
